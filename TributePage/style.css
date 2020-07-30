@@ -1,0 +1,94 @@
+main, body {
+  background-color: #fff2e6;
+  color: hsl( 0 0% 25%);
+  margin: 0 50px 0 50px;
+  font-family: montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header {
+color: hsl(0, 0, 30);
+display: flex;
+flex-direction: column;
+column-count: 1;
+}
+
+h1 {
+text-align: center;
+font-weight: bold;
+font-size: 32;
+}
+
+p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 14;
+  padding-bottom: 20px;
+}
+
+#img-div {
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+}
+#image{
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  background-color: #fff2e6;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18;
+  text-align: center;
+  margin: auto;
+}
+
+#timeline-div {
+  background-color: #fff2e6;
+  display:flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: auto;
+  padding-inline-start: 20px;
+}
+
+li {
+  margin: 10px;
+}
+#quote {
+  font-style: italic;
+  font-size: 14;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 20px auto;
+}
+
+h3{
+  text-align: center;
+  max-width: 600px;
+  margin: 0px auto 20px auto;
+}
