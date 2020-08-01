@@ -1,0 +1,113 @@
+@media only screen {
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: montserrat;
+
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: hsl(0,0%,90%);
+  height: 100%;
+  align-items: baseline;
+  justify-content: flex-start;
+  text-align: left;
+  border-right: solid;
+}
+
+header{
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h1 {
+font-weight: 500;
+}
+
+h2 {
+font-weight: 500;
+}
+
+nav {
+  width: 100%;
+
+}
+
+li {
+  width: 100%;
+  text-indent: 40px;
+  padding: 15px 0px 15px 0px;
+  list-style-position: inside;
+  list-style: none;
+  text-align: left;
+  border-top: solid;
+  border-width: thin;
+  }
+
+#litext {
+list-style: initial;
+list-style-position: outside;
+border: transparent;
+text-indent: 0px;
+margin-left: 40px;
+padding: 5px;
+}
+
+#lista2 {
+list-style: initial;
+list-style-position: outside;
+border: transparent;
+text-indent: 0px;
+margin-left: 40px;
+padding: 5px;
+}
+
+#ul2 {
+padding-top: 10px;
+}
+
+  a{
+    font-family: montserrat;
+    color: hsl(0,0%,30%)
+  }
+
+  .doc {
+    line-height: 25px;
+    font-family: open sans, arial;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 350px;
+    margin-right: 40px;
+    align-items: flex-start;
+    justify-content:
+    padding: 10px;
+  }
+  p {
+    padding-left: 40px;
+  }
+  section {
+    padding: 10px;
+  }
+
+  code {
+    display: block;
+    text-align: left;
+    word-break: normal;
+    word-wrap: normal;
+    margin-left: 60px;
+    background-color: #fff7e6;
+    color: hsl(0,0%,50%);
+    padding: 15px;
+    line-height: 30px;
+  }
+}
